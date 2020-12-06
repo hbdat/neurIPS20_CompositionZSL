@@ -1,0 +1,2 @@
+err_counter [('/home/project_amadeus/mnt/raptor/hbdat/Attention_over_attention/data/SUN/images/s/stone_circle/sun_anxzechmggrinczx.jpg',), 
+('/home/project_amadeus/mnt/raptor/hbdat/Attention_over_attention/data/SUN/images/t/terrace_farm/sun_bmmnpaheooapqpes.jpg',)]
