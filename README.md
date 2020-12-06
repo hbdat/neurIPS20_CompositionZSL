@@ -4,6 +4,8 @@
 This repository contains the implementation of [Compositional Zero-Shot Learning via Fine-Grained Dense Feature Composition](https://hbdat.github.io/pubs/neurips20_CompositionZSL_final.pdf).
 > In this work, we transform a discriminative model into a generative model to improve zero-shot learning by leveraging compositionality of dense representations based on [Dense-Attention Zero-shot Learning (DAZLE)](https://github.com/hbdat/cvpr20_DAZLE)
 
+![Image](https://github.com/hbdat/neurIPS20_CompositionZSL/raw/main/fig/feature_composition.png)
+
 ## Notes
 ```
 The repository is still under construction.
