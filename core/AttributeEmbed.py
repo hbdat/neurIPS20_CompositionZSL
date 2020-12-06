@@ -81,20 +81,6 @@ class AttributeEmbed(nn.Module):
         S_pp = torch.einsum('zi,bi->biz',att_t,S_p)  
          
         return S_pp 
-    
-    def best_fit(self,H_pos,attr_idx_neg):  #[pf],[n] p: number of present attribute, n: number of absent attribute
-        V_n = self.compute_V() 
-        V_n_supp = V_n[attr_idx_neg]    #[nv]
-        
-        S_p = torch.einsum('nv,vf,pf->np',V_n_supp,self.W_1,H_pos)  
-        
-        edit_candidate = torch.argmax(S_p,dim=1)              #[n] 
-                
-        one_hot = torch.eye(S_p.size(1)).to(S_p.device)         #[pp]
-         
-        H_neg = torch.einsum("np,pf->nf",one_hot[edit_candidate],H_pos) 
-        
-        return H_neg
         
     def compute_V(self): 
         if self.normalize_V:   
