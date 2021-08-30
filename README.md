@@ -6,17 +6,6 @@ This repository contains the implementation of [Compositional Zero-Shot Learning
 
 ![Image](https://github.com/hbdat/neurIPS20_CompositionZSL/raw/main/fig/feature_composition.png)
 
-## Notes
-```
-The repository is still under construction.
-Please let me know if you encounter any issues.
-
-Best,
-Dat Huynh
-
-huynh [dot] dat [at] northeastern [dot] edu
-```
-
 ---
 ## Prerequisites
 To install all the dependency packages, please run:
