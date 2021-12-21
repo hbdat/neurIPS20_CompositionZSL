@@ -48,8 +48,10 @@ These scripts create hdf5 files which contain image features and data splits for
 ./notebook/Composer/Composer_SUN.ipynb
 ```
 
-## Fine-tune Setting
-Coming soon ...
+## Pretrained Models
+Since the training process is not resource-intensive, most experiments can be produced within 30mins.
+
++ If you need the pretrained models, please reach out to me via huynh.dat@northeastern.edu
 
 ---
 ## Citation
